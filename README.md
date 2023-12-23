@@ -1,19 +1,17 @@
-# uni-vue-template
+# ⚡ 简介
 
-## Project setup
-```
-yarn install
-```
+🎉🎉🎉 Uni-app + Vue 通用模板~
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+# 🍰 功能
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- 待定
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 🚀 开发
+
+```shell
+# 克隆项目
+git clone https://github.com/chuxin-cs/uni-vue-template
+
+# 进入项目目录
+cd uni-vue-template
+```
