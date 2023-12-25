@@ -6,7 +6,11 @@ Vue.config.productionTip = false;
 
 App.mpType = "app";
 
-const app = new Vue({
-  ...App,
-});
+function createApp() {
+    return new Vue({
+        ...App,
+    });
+}
+
+const app = createApp();
 app.$mount();
