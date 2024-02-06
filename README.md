@@ -1,17 +1,18 @@
 # ⚡ 简介
 
-🎉🎉🎉 Uni-app + Vue 通用模板~
+🎉🎉🎉 static public
 
-# 🍰 功能
+# 🍰 文件
 
-- 待定
+- images 图片
+- pdf-web pdf 在线预览方案
 
 # 🚀 开发
 
 ```shell
 # 克隆项目
-git clone https://github.com/chuxin-cs/uni-vue-template
+git clone https://github.com/chuxin-cs/public
 
 # 进入项目目录
-cd uni-vue-template
+cd public
 ```
