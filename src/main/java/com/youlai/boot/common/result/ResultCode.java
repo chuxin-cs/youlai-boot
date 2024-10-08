@@ -13,7 +13,7 @@ import java.io.Serializable;
  * @author Ray
  * @since 2020/6/23
  **/
-@AllArgsConstructor
+//@AllArgsConstructor
 @NoArgsConstructor
 public enum ResultCode implements IResultCode, Serializable {
 
@@ -92,9 +92,15 @@ public enum ResultCode implements IResultCode, Serializable {
         return msg;
     }
 
+    private String msg;
     private String code;
 
-    private String msg;
+    // 定义了这个方法就是自己重写 不定义的话 上面的code 和 msg 属性就需要严格按照顺序来
+    // 如果使用这个方法来指明 SUCCESS("00000", "一切ok") 中 00000 是code  一切ok是msg 就需要注释掉 @AllArgsConstructor
+    private ResultCode(String code,String msg){
+        this.code=code;
+        this.msg=msg;
+    }
 
     @Override
     public String toString() {

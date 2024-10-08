@@ -36,11 +36,8 @@ public class PageResult<T> implements Serializable {
 
     @lombok.Data
     public static class Data<T> {
-
         private List<T> list;
-
         private long total;
-
     }
 
 }
